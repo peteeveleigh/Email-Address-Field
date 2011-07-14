@@ -1,1 +1,7 @@
 Email Address Field is a simple ExpressionEngine 2 Fieldtype for handling the validation of email addresses in the CP
+
+Installation instructions
+--------------------------
+add the folder 'email_address' to /system/expressionengine/third_party/
+
+Turn the fieldtype on in Add-Ons->FieldTypes of the Expressionengine Control Panel.
