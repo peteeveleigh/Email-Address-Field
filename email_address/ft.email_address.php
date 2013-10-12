@@ -29,7 +29,7 @@ class Email_address_ft extends EE_Fieldtype {
 	);
 	
 	function Email_address_ft(){
-		parent::EE_Fieldtype();
+		parent::EE_Fieldtype::__construct();
 		$this->EE->lang->loadfile('email_address');
 	}
 	
